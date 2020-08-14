@@ -1,0 +1,44 @@
+.container {
+    background: #eee;
+    width: 1000px;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px;
+    /*grid-row-gap: 20px;*/
+    /*grid-column-gap: 20px;*/
+
+    grid-gap: 25px;
+}
+
+.item {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.item--1 {
+    background: orange;
+}
+
+.item--2 {
+    background: green;
+}
+
+.item--3 {
+    background: violet;
+}
+
+.item--4 {
+    background: pink;
+}
+
+.item--5 {
+    background: blue;
+}
+
+.item--6 {
+    background: brown;
+}
